@@ -1,9 +1,30 @@
 .container-fluid {
-  padding-left: 0px;
-  padding-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 .elContainer {
-  padding: 0px;
-  margin: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.navLogo {
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.navLinks {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.footerIcons {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.footerDiv {
+    margin-top: 20px;
+    margin-left: 20px;
 }

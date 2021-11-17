@@ -1,28 +1,29 @@
 import React from "react"
-import { Navbar, Container, Nav, Button } from "react-bootstrap";
+import {Navbar, Container, Nav, Button, Image} from "react-bootstrap"
 
 function NavbarComponent() {
     return (
-        <div className="py-4">
+        <div className="py-4 navContainer">
             <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
                 <Container>
                     <Navbar.Brand href="/">
-                        CAFE
+                        <Image
+                            className="navLogo"
+                            src="./img/starbucks_logo.png"
+                            alt="Strabucks Logo"
+                        />
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                    <Navbar.Collapse id="responsive-navbar-nav">
+                    <Navbar.Collapse
+                        className="navLinks"
+                        id="responsive-navbar-nav">
                         <Nav className="me-auto">
-
-                            <Navbar.Brand href="/menu">MENU</Navbar.Brand>
-                            <Navbar.Brand href="/about">ABOUT</Navbar.Brand>
-                            <Navbar.Brand href="/contact">CONTACT</Navbar.Brand>
+                            <Navbar.Brand href="/menu">Menu</Navbar.Brand>
+                            <Navbar.Brand href="/about">About</Navbar.Brand>
+                            <Navbar.Brand href="/contact">Contact</Navbar.Brand>
                         </Nav>
                         <Nav>
-                            <a href="/login">
-                                <Button className="btn-light">
-                                    Login
-                                </Button>
-                            </a>
+                            <Navbar.Brand href="/login">Login</Navbar.Brand>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
@@ -31,4 +32,4 @@ function NavbarComponent() {
     )
 }
 
-export default NavbarComponent;
+export default NavbarComponent

@@ -1,21 +1,16 @@
-import React from 'react'
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link
-} from "react-router-dom";
-import { Container } from 'react-bootstrap'
-
+import React from "react"
+import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom"
+import {Container} from "react-bootstrap"
 
 //Import Components
-import NavComponent from './NavComponent'
-import FooterComponent from './FooterComponent'
-import HomeComponent from './HomeComponent';
-import MenuComponent from './MenuComponent';
-import AboutComponent from './AboutComponent';
-import ContactComponent from './ContactComponent';
-import LoginComponent from './LoginComponent';
+import NavComponent from "./NavComponent"
+import FooterComponent from "./FooterComponent"
+import HomeComponent from "./HomeComponent"
+import MenuComponent from "./MenuComponent"
+import AboutComponent from "./AboutComponent"
+import ContactComponent from "./ContactComponent"
+import LoginComponent from "./LoginComponent"
+import AboutUsComponent from "./AboutUsComponent"
 
 export default function MainComponent() {
     return (
@@ -39,6 +34,7 @@ export default function MainComponent() {
                         <LoginComponent />
                     </Route>
                 </Switch>
+                <AboutUsComponent />
                 <FooterComponent />
             </Container>
         </Router>
