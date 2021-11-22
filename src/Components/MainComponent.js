@@ -1,4 +1,4 @@
-import React from "react"
+import React, {useState} from "react"
 import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom"
 import {Container} from "react-bootstrap"
 
@@ -13,7 +13,12 @@ import LoginComponent from "./LoginComponent"
 import AboutUsComponent from "./AboutUsComponent"
 import CoffeeComponent from "./CoffeeComponent"
 
+const COFFEEMENU = require("../db/data.json")
+
 export default function MainComponent() {
+    const [menu, setMenu] = useState(COFFEEMENU)
+    const [selectedMenu, renderMenu] = useState("none")
+
     return (
         <Router>
             <Container fluid>
@@ -23,7 +28,11 @@ export default function MainComponent() {
                         <HomeComponent />
                     </Route>
                     <Route path="/menu">
-                        <MenuComponent />
+                        <MenuComponent
+                            menu={menu}
+                            selectedMenu={selectedMenu}
+                            onMenuClick={renderMenu}
+                        />
                     </Route>
                     <Route path="/about">
                         <AboutComponent />
@@ -35,7 +44,11 @@ export default function MainComponent() {
                         <LoginComponent />
                     </Route>
                     <Route path="/CoffeeTraveler">
-                        <CoffeeComponent name="test" />
+                        <CoffeeComponent
+                            menu={menu}
+                            selectedMenu={selectedMenu}
+                            onMenuClick={renderMenu}
+                        />
                     </Route>
                 </Switch>
                 <AboutUsComponent />

@@ -1,22 +1,22 @@
-import React, {useState} from "react"
+import React from "react"
 import {Container, Row, Col} from "react-bootstrap"
-const COFFEEMENU = require("../db/data.json")
 
 function CoffeeComponent(props) {
-    const [menu, setMenu] = useState(COFFEEMENU)
     return (
         <Container>
             <Row>
-                <>
-                    <Col className="menuContainer" md="4">
-                        <div className="menuName">{menu[0].coffee[0].name}</div>
-                        <img
-                            className="menuImg"
-                            src={menu[0].coffee[0].url}
-                            alt={menu[0].coffee[0].name}
-                        />
-                    </Col>
-                </>
+                <Col />
+                <Col md="8">
+                    <div className="menuName">
+                        {props.menu[0].coffee[0].name}
+                    </div>
+                    <img
+                        className="menuImg"
+                        src={props.menu[0].coffee[0].url}
+                        alt={props.menu[0].coffee[0].name}
+                    />
+                </Col>
+                <Col />
             </Row>
         </Container>
     )

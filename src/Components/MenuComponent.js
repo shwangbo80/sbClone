@@ -1,10 +1,8 @@
-import React, {useState} from "react"
+import React from "react"
 import {Container, Row, Col} from "react-bootstrap"
 import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom"
-const COFFEEMENU = require("../db/data.json")
 
-function MenuComponent() {
-    const [menu, setMenu] = useState(COFFEEMENU)
+function MenuComponent(props) {
     return (
         <>
             <Router>
@@ -13,7 +11,7 @@ function MenuComponent() {
                         <Col md="3">
                             <p>Drinks</p>
                             <Row>
-                                {menu.map((menu) =>
+                                {props.menu.map((menu) =>
                                     menu.type.map((item, index) => {
                                         return (
                                             <>
@@ -31,7 +29,7 @@ function MenuComponent() {
                         <Col md="9">
                             <p>Menu</p>
                             <Row>
-                                {menu.map((menu) =>
+                                {props.menu.map((menu) =>
                                     menu.coffee.map((item, index) => {
                                         return (
                                             <>
