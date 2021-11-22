@@ -3,6 +3,51 @@
     padding-right: 0px;
 }
 
+.videoBg {
+    width: 100vw;
+    height: 90vh;
+    object-fit: cover;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.videoContainer {
+    position: relative;
+    top: 10px;
+    height: 100vh;
+}
+
+.headlineContainer {
+    position: relative;
+    top: -400px;
+    padding: 0 10px 0 10px;
+}
+
+.removeLinkStyle {
+    text-decoration: none;
+}
+
+.videoHeadline {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.videoLink {
+    text-decoration: underline;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.headlineLarge {
+    font-size: 3rem;
+}
+
 .elContainer {
     padding: 0px;
     margin: 0px;
@@ -35,12 +80,17 @@
 }
 
 .menuName {
-    font-size: 2.5vh;
+    font-size: 2vh;
     font-weight: bold;
-    margin-top: 50px;
+    margin-top: 75px;
     margin-bottom: 10px;
 }
 
 .menuContainer {
     text-align: center;
+}
+
+.guideLine {
+    margin-top: -60px;
+    margin-bottom: -10px;
 }

@@ -8,25 +8,8 @@ function MenuComponent(props) {
             <Router>
                 <Container>
                     <Row>
-                        <Col md="3">
-                            <p>Drinks</p>
-                            <Row>
-                                {props.menu.map((menu) =>
-                                    menu.type.map((item, index) => {
-                                        return (
-                                            <>
-                                                <Col md="12">
-                                                    <div key={index}>
-                                                        {item.name}
-                                                    </div>
-                                                </Col>
-                                            </>
-                                        )
-                                    })
-                                )}
-                            </Row>
-                        </Col>
-                        <Col md="9">
+                        <Col />
+                        <Col md="10">
                             <p>Menu</p>
                             <Row>
                                 {props.menu.map((menu) =>
@@ -55,6 +38,7 @@ function MenuComponent(props) {
                                 )}
                             </Row>
                         </Col>
+                        <Col />
                     </Row>
                 </Container>
             </Router>

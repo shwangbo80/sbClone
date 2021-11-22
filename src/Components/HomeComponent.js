@@ -4,12 +4,28 @@ import {Container, Row, Col, Image, Button} from "react-bootstrap"
 function HomeComponent() {
     return (
         <React.Fragment>
-            <Container>
-                <Row>
-                    <Col md="1"></Col>
-                    <Col md="10">
-                        <Row className="alert alert-success text-center">
-                            <Col md="3"></Col>
+            <Container fluid>
+                <div className="videoContainer">
+                    <video autoPlay muted loop className="videoBg">
+                        <source src="./img/video.mp4" type="video/mp4" />
+                    </video>
+                    <div className="headlineContainer">
+                        <h1 className="videoHeadline headlineLarge">
+                            COFFEE ALL THE WAY TO FREE FAVORITES
+                        </h1>
+                        <h4 className="videoHeadline">
+                            Join Starbucks® Rewards for delicious deals &
+                            exclusive offers.
+                        </h4>
+                        <a className="removeLinkStyle" href="/">
+                            <h4 className="videoLink">Learn more</h4>
+                        </a>
+                    </div>
+                </div>
+                <Row className="alert alert-success text-center p-5 guideLine">
+                    <Col md="12">
+                        <Row>
+                            <Col></Col>
                             <Col md="6">
                                 <h5>
                                     Following CDC guidance, facial coverings are
@@ -18,8 +34,13 @@ function HomeComponent() {
                                     law. Learn more
                                 </h5>
                             </Col>
-                            <Col md="2"></Col>
+                            <Col></Col>
                         </Row>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col md="1"></Col>
+                    <Col md="10">
                         <Row>
                             <Col
                                 md="6"

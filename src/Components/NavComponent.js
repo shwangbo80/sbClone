@@ -3,7 +3,7 @@ import {Navbar, Container, Nav, Button, Image} from "react-bootstrap"
 
 function NavbarComponent() {
     return (
-        <div className="py-4 navContainer">
+        <div className="navContainer">
             <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
                 <Container>
                     <Navbar.Brand href="/">
