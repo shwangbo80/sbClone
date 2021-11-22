@@ -11,6 +11,7 @@ import AboutComponent from "./AboutComponent"
 import ContactComponent from "./ContactComponent"
 import LoginComponent from "./LoginComponent"
 import AboutUsComponent from "./AboutUsComponent"
+import CoffeeComponent from "./CoffeeComponent"
 
 export default function MainComponent() {
     return (
@@ -32,6 +33,9 @@ export default function MainComponent() {
                     </Route>
                     <Route path="/login">
                         <LoginComponent />
+                    </Route>
+                    <Route path="/CoffeeTraveler">
+                        <CoffeeComponent name="test" />
                     </Route>
                 </Switch>
                 <AboutUsComponent />

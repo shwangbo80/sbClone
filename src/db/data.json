@@ -1,0 +1,230 @@
+[
+    {
+        "type": [
+            {"name": "Hot Coffees"},
+            {"name": "Hot Teas"},
+            {"name": "Hot Drinks"},
+            {"name": "Frappuccino Blended Beverages"},
+            {"name": "Cold Coffees"},
+            {"name": "Iced Teas"},
+            {"name": "Cold Drinks"}
+        ],
+        "multi": ["Single", "Double", "Triple", "Quad", "Quint"],
+        "appendition": [
+            "And Extra Shot",
+            "Plus Extra Whip",
+            "With An Extra Shot And Cream",
+            "At 120 Degrees",
+            "With Extra Whipped Cream and Chocolate Sauce",
+            "Caffeine Free"
+        ],
+        "attribute": [
+            "Non-Fat",
+            "Iced",
+            "Sugar Free",
+            "Venti",
+            "Soy",
+            "No Foam",
+            "Triple",
+            "Half Sweet",
+            "Decaf",
+            "Half-Caff",
+            "Quad",
+            "One-Pump",
+            "Skinny",
+            "Fat",
+            "Sugar-Free Syrup",
+            "Light Ice",
+            "Heavy Ice",
+            "No Whip",
+            "Extra Whip",
+            "Dolce Soy",
+            "Almond"
+        ],
+        "coffee": [
+            {
+                "name": "Coffee Traveler",
+                "url": "http://globalassets.starbucks.com/assets/139e5a0565134f4ab1935a04357dd01c.jpg",
+                "link": "CoffeeTraveler"
+            },
+            {
+                "name": "Espresso",
+                "url": "https://globalassets.starbucks.com/assets/ec519dd5642c41629194192cce582135.jpg?impolicy=1by1_wide_topcrop_630",
+                "link": "Espresso"
+            },
+            {
+                "name": "Ristretto",
+                "url": "http://www.minimoka.es/wp-content/uploads/2012/07/Ristretto.jpg",
+                "link": "Ristretto"
+            },
+            {
+                "name": "Featured Dark Roast",
+                "url": "http://globalassets.starbucks.com/assets/b1258f28fbfc42b1a964e7bfc247eaf2.jpg",
+                "link": "FeaturedDarkRoast"
+            },
+            {
+                "name": "Vanilla Latte",
+                "url": "https://globalassets.starbucks.com/assets/5cd1a64f00ed4f7ba5923cfa73a0e323.jpg?impolicy=1by1_wide_topcrop_630",
+                "link": "VanillaLatte"
+            },
+            {
+                "name": "Espresso con Panna",
+                "url": "https://globalassets.starbucks.com/assets/ec519dd5642c41629194192cce582135.jpg?impolicy=1by1_wide_topcrop_630",
+                "link": "EspressoconPanna"
+            },
+            {
+                "name": "White Caffe Mocha",
+                "url": "https://globalassets.starbucks.com/assets/7a326fe84639496f87326d60fb6ef342.jpg?impolicy=1by1_wide_topcrop_630",
+                "link": "WhiteCaffeMocha"
+            },
+            {
+                "name": "Cappuccino",
+                "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Wet_Cappuccino_with_heart_latte_art.jpg",
+                "link": "Cappuccino"
+            },
+
+            {
+                "name": "Chocolate Mocha",
+                "url": "https://assets.mystarbucks.com.au/imagecache/bestfit/620x634/_files/Beverages/White%20Chocolate%20Mocha.jpg",
+                "link": "ChocolateMocha"
+            },
+            {
+                "name": "Pike Place Roast",
+                "url": "http://globalassets.starbucks.com/assets/a084629b03704d2aa2d183a0f057f9b7.jpg",
+                "link": "PikePlaceRoast"
+            },
+
+            {
+                "name": "Espresso Macchiato",
+                "url": "https://globalassets.starbucks.com/assets/ec519dd5642c41629194192cce582135.jpg?impolicy=1by1_wide_topcrop_630",
+                "link": "EspressoMacchiato"
+            },
+
+            {
+                "name": "Caff\u00e8 Misto",
+                "url": "http://globalassets.starbucks.com/assets/1ae57d5b32d64427bc31514aa0156909.jpg",
+                "link": "CaffeMisto"
+            },
+
+            {
+                "name": "Blonde Roast",
+                "url": "http://globalassets.starbucks.com/assets/594ffeee3b1442ccbd7e926c51f45776.jpg",
+                "link": "BlondeRoast"
+            },
+
+            {
+                "name": "Clover\u00ae Brewed Coffee",
+                "url": "http://globalassets.starbucks.com/assets/25b52a59363e463c996908860b5efade.jpg",
+                "link": "CloverBrewed Coffee"
+            },
+
+            {
+                "name": "Iced Coffee with Milk",
+                "url": "https://globalassets.starbucks.com/assets/cc9b573f8c1b43cd89cdab08ae5b9ec7.jpg",
+                "link": "IcedCoffeewithMilk"
+            },
+
+            {
+                "name": "Caffe Americano",
+                "url": "http://imerexplazahotel.com/en/images/unlicafe/hotcoffee/cafe-americano.jpg",
+                "link": "CaffeAmericano"
+            },
+
+            {
+                "name": "Chai Tea Latte",
+                "url": "https://fitfoodiefinds.com/wp-content/uploads/2021/09/Chai-Tea-Latte-05sq.jpg",
+                "link": "ChaiTeaLatte"
+            },
+
+            {
+                "name": "Nari\u00f1o 70 Cold Brew",
+                "url": "http://globalassets.starbucks.com/assets/9b50abc5efc7421db302a76e938c4713.jpg",
+                "link": "Narino70ColdBrew"
+            },
+
+            {
+                "name": "Frappuccino",
+                "url": "https://globalassets.starbucks.com/assets/f7a91d930a1d4964bd906f685d7cc485.jpg?impolicy=1by1_tight_288",
+                "link": "Frappuccino"
+            },
+
+            {
+                "name": "Iced Coffee",
+                "url": "http://globalassets.starbucks.com/assets/3a587a16ee4642a8a9ba3ccdd8c1e4f5.jpg",
+                "link": "IcedCoffee"
+            },
+
+            {
+                "name": "Caramel Macchiato",
+                "url": "https://athome.starbucks.com/sites/default/files/2021-08/CaramelDrizzle.jpg",
+                "link": "CaramelMacchiato"
+            },
+
+            {
+                "name": "Mocha",
+                "url": "https://computerscience.johncabot.edu/mscaramastra/S2014/S2014CS130/Madyrova/Finalproject%20MadyrovaMaria/Cafe-mocha.jpg",
+                "link": "Mocha"
+            },
+
+            {
+                "name": "Nari\u00f1o 70 Cold Brew with Milk",
+                "url": "http://globalassets.starbucks.com/assets/b46638c85364413e88d21275b2bf29c2.jpg",
+                "link": "Narino70ColdBrewwithMilk"
+            },
+
+            {
+                "name": "Decaf Pike Place\u00ae Roast",
+                "url": "http://globalassets.starbucks.com/assets/376e8381434049798635d370bee0d7f0.jpg",
+                "link": "DecafPikePlaceRost"
+            },
+
+            {
+                "name": "Caffe Latte",
+                "url": "http://www.minimoka.es/wp-content/uploads/2012/07/caffe_latte.jpg",
+                "link": "CaffeLatte"
+            },
+
+            {
+                "name": "Vanilla Sweet Cream Cold Brew",
+                "url": "http://globalassets.starbucks.com/assets/b46638c85364413e88d21275b2bf29c2.jpg",
+                "link": "VanillaSweetCreamColdBrew"
+            }
+        ],
+        "intro": [
+            "How about a",
+            "It looks like you need a",
+            "Why not try the",
+            "Try a",
+            "Check out a",
+            "Nothing like a",
+            "My personal favorite"
+        ],
+        "syrup_type": [
+            "",
+            "With Extra Hot",
+            "And Non-Fat",
+            "On Half-Sweet",
+            "Add One-Pump",
+            "Add Ten-Pump",
+            "And 4-Pump",
+            "Add half a pump"
+        ],
+        "syrup": [
+            "Caramel",
+            "Hazelnut",
+            "Cinnamon",
+            "Caramel",
+            "Vanilla",
+            "Chocolate",
+            "Pumkin Spice"
+        ],
+        "size": [
+            "Short",
+            "Tall",
+            "Grande",
+            "Venti\u00ae Hot",
+            "Venti\u00ae Cold",
+            "Trenta\u00ae Cold"
+        ]
+    }
+]
