@@ -10,37 +10,40 @@ function HomeComponent() {
                         <source src="./img/video.mp4" type="video/mp4" />
                     </video>
                     <div className="headlineContainer">
-                        <h1 className="videoHeadline headlineLarge">
-                            COFFEE ALL THE WAY TO FREE FAVORITES
-                        </h1>
-                        <h4 className="videoHeadline">
-                            Join Starbucks® Rewards for delicious deals &
-                            exclusive offers.
-                        </h4>
-                        <a className="removeLinkStyle" href="/">
-                            <h4 className="videoLink">Learn more</h4>
-                        </a>
+                        <div className="headlines">
+                            <h1 className="videoHeadline headlineLarge">
+                                COFFEE ALL THE WAY TO FREE FAVORITES
+                            </h1>
+                            <h4 className="videoHeadline">
+                                Join Starbucks® Rewards for delicious deals &
+                                exclusive offers.
+                            </h4>
+                            <a className="removeLinkStyle" href="/">
+                                <h4 className="videoLink">Learn more</h4>
+                            </a>
+                        </div>
                     </div>
                 </div>
-                <Row className="alert alert-success text-center p-5 guideLine">
-                    <Col md="12">
-                        <Row>
-                            <Col></Col>
-                            <Col md="6">
-                                <h5>
-                                    Following CDC guidance, facial coverings are
-                                    recommended in our stores for all customers,
-                                    and are required where mandated by local
-                                    law. Learn more
-                                </h5>
-                            </Col>
-                            <Col></Col>
-                        </Row>
-                    </Col>
-                </Row>
                 <Row>
-                    <Col md="1"></Col>
-                    <Col md="10">
+                    <Col></Col>
+                    <Col md="8">
+                        <Row className="alert alert-success text-center p-5 guideLine">
+                            <Col md="12">
+                                <Row>
+                                    <Col></Col>
+                                    <Col md="8">
+                                        <h4>
+                                            Following CDC guidance, facial
+                                            coverings are recommended in our
+                                            stores for all customers, and are
+                                            required where mandated by local
+                                            law. Learn more
+                                        </h4>
+                                    </Col>
+                                    <Col></Col>
+                                </Row>
+                            </Col>
+                        </Row>
                         <Row>
                             <Col
                                 md="6"
@@ -184,7 +187,7 @@ function HomeComponent() {
                         </Row>
                         <hr />
                     </Col>
-                    <Col md="1"></Col>
+                    <Col></Col>
                 </Row>
             </Container>
         </React.Fragment>
