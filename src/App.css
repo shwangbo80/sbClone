@@ -120,3 +120,18 @@ p {
   width: 100%;
   margin: 0 auto 0 auto;
 }
+
+.drink-img {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.hr-space {
+  margin: 100px 0 100px 0;
+}
+
+.about-container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}

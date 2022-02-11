@@ -28,11 +28,7 @@ export default function MainComponent() {
             <HomeComponent />
           </Route>
           <Route path="/menu">
-            <MenuComponent
-              menu={menu}
-              selectedMenu={selectedMenu}
-              onMenuClick={renderMenu}
-            />
+            <MenuComponent />
           </Route>
           <Route path="/about">
             <AboutComponent />
@@ -42,13 +38,6 @@ export default function MainComponent() {
           </Route>
           <Route path="/login">
             <LoginComponent />
-          </Route>
-          <Route path="/CoffeeTraveler">
-            <CoffeeComponent
-              menu={menu}
-              selectedMenu={selectedMenu}
-              onMenuClick={renderMenu}
-            />
           </Route>
         </Switch>
         <AboutUsComponent />

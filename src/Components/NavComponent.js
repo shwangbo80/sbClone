@@ -5,7 +5,7 @@ function NavbarComponent() {
   return (
     <div className="navContainer">
       <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
-        <Container>
+        <Container fluid className="mx-5">
           <Navbar.Brand href="/">
             <Image
               className="navLogo"
