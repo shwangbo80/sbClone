@@ -1,6 +1,7 @@
 p {
   font-size: 16px;
 }
+
 .container-fluid {
   padding-left: 0px;
   padding-right: 0px;
@@ -19,6 +20,12 @@ p {
 
 .videoContainer {
   height: 806px;
+}
+
+.menuContainer {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .headlineContainer {
@@ -91,10 +98,6 @@ p {
   margin-bottom: 10px;
 }
 
-.menuContainer {
-  text-align: center;
-}
-
 .guideLine {
   display: grid;
   place-items: center;
@@ -103,7 +106,7 @@ p {
 }
 
 .hero-image {
-  background-image: url("./starbucks6.jpeg");
+  background-image: url("./starbucks8.jpeg");
   height: 92vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -122,7 +125,7 @@ p {
 }
 
 .drink-img {
-  width: 100px;
+  width: 150px;
   border-radius: 50%;
 }
 
