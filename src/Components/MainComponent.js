@@ -11,38 +11,40 @@ import AboutComponent from "./AboutComponent"
 import GiftcardsComponent from "./GifrcardsComponent"
 import LoginComponent from "./LoginComponent"
 import AboutUsComponent from "./AboutUsComponent"
-import CoffeeComponent from "./CoffeeComponent"
+import HotCoffeeRoutes from "./Rontes/HotCoffeeRoutes"
+import AmericanoComponent from "./Coffee/AmericanoComponent"
+import HotCoffee from "./Category/HotCoffee"
 
 const COFFEEMENU = require("../db/data.json")
 
 export default function MainComponent() {
-  const [menu, setMenu] = useState(COFFEEMENU)
-  const [selectedMenu, renderMenu] = useState("none")
+    const [menu, setMenu] = useState(COFFEEMENU)
+    const [selectedMenu, renderMenu] = useState("none")
 
-  return (
-    <Router>
-      <Container fluid>
-        <NavComponent />
-        <Switch>
-          <Route exact path="/">
-            <HomeComponent />
-          </Route>
-          <Route path="/menu">
-            <MenuComponent />
-          </Route>
-          <Route path="/about">
-            <AboutComponent />
-          </Route>
-          <Route path="/giftcards">
-            <GiftcardsComponent />
-          </Route>
-          <Route path="/login">
-            <LoginComponent />
-          </Route>
-        </Switch>
-        <AboutUsComponent />
-        <FooterComponent />
-      </Container>
-    </Router>
-  )
+    return (
+        <Router>
+            <Container fluid>
+                <NavComponent />
+                <Switch>
+                    <Route exact path="/">
+                        <HomeComponent />
+                    </Route>
+                    <Route path="/menu">
+                        <MenuComponent />
+                    </Route>
+                    <Route path="/about">
+                        <AboutComponent />
+                    </Route>
+                    <Route path="/giftcards">
+                        <GiftcardsComponent />
+                    </Route>
+                    <Route path="/login">
+                        <LoginComponent />
+                    </Route>
+                </Switch>
+                <AboutUsComponent />
+                <FooterComponent />
+            </Container>
+        </Router>
+    )
 }
