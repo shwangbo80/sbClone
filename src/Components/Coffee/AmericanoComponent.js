@@ -1,5 +1,5 @@
 import {useState} from "react"
-import {Container, Row, Col, Image, Modal, Button} from "react-bootstrap"
+import {Container, Row, Col, Image, Modal, Form} from "react-bootstrap"
 import {Cup, CupFill, GeoAlt} from "react-bootstrap-icons"
 
 export default function AmericanoComponent() {
@@ -32,11 +32,98 @@ export default function AmericanoComponent() {
   const handleShow7 = () => setShow7(true)
   return (
     <>
-      <Modal show={show1} onHide={handleClose1}>
+      <Modal show={show1} onHide={handleClose1} scrollable={true} size="lg">
         <Modal.Header closeButton>
-          <Modal.Title>Modal heading</Modal.Title>
+          <Modal.Title>Add-ins</Modal.Title>
         </Modal.Header>
-        <Modal.Body>Woohoo, you're reading this text in a modal!</Modal.Body>
+        <Modal.Body>
+          <h6>Creamer</h6>
+          <hr />
+          <div className="mb-2">
+            <Form.Select className="my-4">
+              <option>Splash of Oatmilk</option>
+              <option value="1">ExtraSplash of Oatmilk</option>
+              <option value="2">Light Splash of Oatmilk</option>
+              <option value="3">No Splash of Oatmilk</option>
+              <option value="4">Splash of Oatmilk</option>
+              <option value="5">Subsitute Splash of Oatmilk</option>
+            </Form.Select>
+            <Form.Select className="my-4">
+              <option>Splash of Oatmilk</option>
+              <option value="1">ExtraSplash of Oatmilk</option>
+              <option value="2">Light Splash of Oatmilk</option>
+              <option value="3">No Splash of Oatmilk</option>
+              <option value="4">Splash of Oatmilk</option>
+              <option value="5">Subsitute Splash of Oatmilk</option>
+            </Form.Select>
+            <Form.Select className="my-4">
+              <option>Splash of Oatmilk</option>
+              <option value="1">ExtraSplash of Oatmilk</option>
+              <option value="2">Light Splash of Oatmilk</option>
+              <option value="3">No Splash of Oatmilk</option>
+              <option value="4">Splash of Oatmilk</option>
+              <option value="5">Subsitute Splash of Oatmilk</option>
+            </Form.Select>
+            <Form.Select className="my-4">
+              <option>Splash of Oatmilk</option>
+              <option value="1">ExtraSplash of Oatmilk</option>
+              <option value="2">Light Splash of Oatmilk</option>
+              <option value="3">No Splash of Oatmilk</option>
+              <option value="4">Splash of Oatmilk</option>
+              <option value="5">Subsitute Splash of Oatmilk</option>
+            </Form.Select>
+            <Form.Select className="my-4">
+              <option>Splash of Oatmilk</option>
+              <option value="1">ExtraSplash of Oatmilk</option>
+              <option value="2">Light Splash of Oatmilk</option>
+              <option value="3">No Splash of Oatmilk</option>
+              <option value="4">Splash of Oatmilk</option>
+              <option value="5">Subsitute Splash of Oatmilk</option>
+            </Form.Select>
+            <Form.Select className="my-4">
+              <option>Splash of Oatmilk</option>
+              <option value="1">ExtraSplash of Oatmilk</option>
+              <option value="2">Light Splash of Oatmilk</option>
+              <option value="3">No Splash of Oatmilk</option>
+              <option value="4">Splash of Oatmilk</option>
+              <option value="5">Subsitute Splash of Oatmilk</option>
+            </Form.Select>
+            <Form.Select className="my-4">
+              <option>Splash of Oatmilk</option>
+              <option value="1">ExtraSplash of Oatmilk</option>
+              <option value="2">Light Splash of Oatmilk</option>
+              <option value="3">No Splash of Oatmilk</option>
+              <option value="4">Splash of Oatmilk</option>
+              <option value="5">Subsitute Splash of Oatmilk</option>
+            </Form.Select>
+            <Form.Select className="my-4">
+              <option>Splash of Oatmilk</option>
+              <option value="1">ExtraSplash of Oatmilk</option>
+              <option value="2">Light Splash of Oatmilk</option>
+              <option value="3">No Splash of Oatmilk</option>
+              <option value="4">Splash of Oatmilk</option>
+              <option value="5">Subsitute Splash of Oatmilk</option>
+            </Form.Select>
+            <Form.Select className="my-4">
+              <option>Splash of Oatmilk</option>
+              <option value="1">ExtraSplash of Oatmilk</option>
+              <option value="2">Light Splash of Oatmilk</option>
+              <option value="3">No Splash of Oatmilk</option>
+              <option value="4">Splash of Oatmilk</option>
+              <option value="5">Subsitute Splash of Oatmilk</option>
+            </Form.Select>
+            <Form.Select className="my-4">
+              <option>Splash of Oatmilk</option>
+              <option value="1">ExtraSplash of Oatmilk</option>
+              <option value="2">Light Splash of Oatmilk</option>
+              <option value="3">No Splash of Oatmilk</option>
+              <option value="4">Splash of Oatmilk</option>
+              <option value="5">Subsitute Splash of Oatmilk</option>
+            </Form.Select>
+          </div>
+          <h6>Room</h6>
+          <hr />
+        </Modal.Body>
         <Modal.Footer></Modal.Footer>
       </Modal>
 
@@ -87,6 +174,7 @@ export default function AmericanoComponent() {
         <Modal.Body>Woohoo, you're reading this text in a modal!</Modal.Body>
         <Modal.Footer></Modal.Footer>
       </Modal>
+
       <div>
         <a href="/menu/" className="removeLinkStyle text-dark">
           <p className="d-inline me-2">Menu</p>
@@ -177,14 +265,14 @@ export default function AmericanoComponent() {
                 className="customizationContainer d-flex mb-3"
                 onClick={handleShow6}>
                 <h5 className="me-auto align-self-center">
-                  Espressp & Shot Options
+                  Espresso & Shot Options
                 </h5>
                 <h5 className="d-inline align-self-center pt-2">Edit</h5>
               </div>
               <div
                 className="customizationContainer d-flex mb-3"
                 onClick={handleShow7}>
-                <h5 className="me-auto align-self-center">Cip Options</h5>
+                <h5 className="me-auto align-self-center">Cup Options</h5>
                 <h5 className="d-inline align-self-center pt-2">Edit</h5>
               </div>
             </Col>
